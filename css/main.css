@@ -1,0 +1,127 @@
+﻿/*PAGE CSS*/
+
+body {
+    font-family: Trebuchet, Verdana, sans-serif;
+    color: white;
+    background-image: url("../images/bkgrnd4.jpg");
+    background-size: cover;
+}
+
+/*Margin*/
+
+.contentMargin {
+    margin-left: 20%;
+    margin-right: 20%;
+    /*background: #52a891;
+    background: -moz-radial-gradient(center, ellipse cover, #52a891 0%, #205050 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #52a891 0%,#205050 100%); 
+    background: radial-gradient(ellipse at center, #52a891 0%,#205050 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52a891', endColorstr='#205050',GradientType=1 );*/ 
+}
+
+/*Title*/
+
+.gif {
+    width: 95px;
+}
+
+.backgroundTitle {
+
+}
+
+/*Middle button Panel*/
+
+.addRemoveBtns {
+    width: 140px;
+}
+
+.addRemovePanel {
+    border-width: 3px;
+    border-color: #3d1a1b;
+    border-width: 3px;
+    background-color: #5a4125;
+    opacity: .9;
+}
+
+.pointsPanel {
+    margin-top: 125%;
+    border-width: 3px;
+    border-color: #3d1a1b;
+    border-width: 3px;
+    background-color: #5a4125;
+    opacity: .9;
+}
+
+    .addRemovePanel div button {
+        margin-left: -4px;
+    }
+
+.btn-primary {
+    background-color: #3d1a1b;
+    border-color: black;
+}
+
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+        color: #fff;
+        background-color: #3d1a1b;
+        border-color: black; /*set the color you want here*/
+    }
+
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+/*Buff Panels*/
+
+.buffPanels {
+    height: 800px;
+    /*border-color: #6BA7A8;*/
+    border-color: #3d1a1b;
+    border-width: 3px;
+    border-top-width: 25px;
+    /*background-image: linear-gradient(to bottom, #526664, #597674, #5f8684, #659696, #6ba7a8);*/
+    background-color: #5a4125;
+    opacity: .9;
+}
+
+    .buffPanels div {
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+
+ul li {
+    display: list-item;
+    padding: 3px 3px 3px 20px;
+    list-style: none;
+}
+
+.selectedAdd {
+    border: 2px solid #3d1a1b;
+    border-radius: 20px;
+    background-color: #7ab85e;
+}
+
+.selectedRemove {
+    border: 2px solid #3d1a1b;
+    border-radius: 20px;
+    background-color: #7ab85e;
+}
+
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1500px) {
+    #bb8 {
+        display: none;
+    }
+
+    #r2 {
+        display: none;
+    }
+}

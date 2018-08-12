@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Animate.css-->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!--main.js-->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <!--Main.css-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="backgroundTitle">
+        <div class="contentMargin ">
+            <div class="row">
+                <div id="bb8" class="col-md-1" style="margin-top: 8%">
+                    <img src="https://media.giphy.com/media/128cFIx0vlouKQ/source.gif" class="gif" alt="Beep Boop" />
+                </div>
+                <div id="title" class="col-md-9" style="margin-left: 8%">
+                    <img src="images/title.png" />
+                </div>
+                <div id="r2" class="col-md-1" style="margin-top:5%">
+                    <img src="http://media-s3-us-east-1.ceros.com/mashable/images/2015/05/08/6f6c26aa166f8c3b22fdd5403abf97eb/r2-cropped.gif" class="gif" alt="Booooop" style="float:right" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contentMargin">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="addPanel" class="panel panel-default buffPanels">
+                    <div class="panel-body">
+                        <ul>
+                            <li><img src="images/surveyExpanded.png" /> Attributes</li>
+                            <ul class="items">
+                                <li id="0"> Agility</li>
+                                <li id="1"> Constitution</li>
+                                <li id="2"> Luck</li>
+                                <li id="3"> Precision</li>
+                                <li id="4"> Stamina</li>
+                                <li id="5"> Strength</li>
+                            </ul>
+                        </ul>
+                        <ul>
+                            <li><img src="images/surveyExpanded.png" /> Combat</li>
+                            <ul class="items">
+                                <li id="6"> Action Cost Reduction</li>
+                                <li id="7"> Critical hit</li>
+                                <li id="8"> Critical hit reduction</li>
+                                <li id="9"> Glancing Blow</li>
+                            </ul>
+                        </ul>
+                        <ul>
+                            <li><img src="images/surveyExpanded.png" /> Misc</li>
+                            <ul class="items">
+                                <li id="10"> Flush with Success</li>
+                                <li id="11"> Harvest Faire</li>
+                                <li id="12"> Healer</li>
+                                <li id="13"> Resilience</li>
+                                <li id="14"> Go With The Flow</li>
+                                <li id="15"> Second Chance</li>
+                            </ul>
+                        </ul>
+                        <ul>
+                            <li><img src="images/surveyExpanded.png" /> Resistances</li>
+                            <ul class="items">
+                                <li id="16"> Elemental</li>
+                                <li id="17"> Kinetic</li>
+                                <li id="18"> Energy</li>
+                            </ul>
+                        </ul>
+                        <ul>
+                            <li><img src="images/surveyExpanded.png" /> Trade</li>
+                            <ul class="items">
+                                <li id="19"> Crafting Success</li>
+                                <li id="20"> Crafter Assembly</li>
+                                <li id="21"> Handsampling</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="panel panel-default pointsPanel">
+                        <div class="panel-body">
+                            <div>
+                                Points: <span id="points">20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="panel panel-default addRemovePanel ">
+                        <div class="panel-body">
+                            <button id="addBtn" type="button" class="btn btn-primary addRemoveBtns">Add <span class="glyphicon glyphicon-arrow-right"></span></button>
+                            <br /><br />
+                            <button id="rmvBtn" type="button" class="btn btn-primary addRemoveBtns"><span class="glyphicon glyphicon-arrow-left"></span> Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div id="removePanel" class="panel panel-default buffPanels">
+                    <div class="panel-body">
+                        <ul>
+                            <li><img src="images/surveyExpanded.png" /> Added Buffs</li>
+                            <ul id="addedBuffs"></ul>
+                        </ul>
+                        <ul>
+                            <li><img src="images/surveyExpanded.png" /> Copy & Paste tell</li>
+                            <ul>
+                                <li><textarea class="form-control" id="copy" rows="3">/t %NT </textarea></li>
+                                <li><sup>While targeting your entertainer, copy and paste the text from the text field above and it will send a tell to them! It is formatted in a way so it is easier for the entertainer to buff you.</sup></li>
+                            </ul>
+                        </ul>
+                        <ul>
+                            <li><img src="images/surveyExpanded.png" /> Thank your ents!</li>
+                            <ul>
+                                <li>Make sure to tip your ents! They deserve credits for their hard work and time!</li>
+                                <li><sub>Also if you want to support the creator of this calculator, and you're on the Legends server, throw Motordead a tip too :P</sub></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
